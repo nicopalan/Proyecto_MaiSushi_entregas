@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    background-color: rgb(39, 39, 79);
+}
+
+    .main{
+        color: white;
+
+    }
+
+    .grilla{
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+        grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+        grid-template-areas: ". titulo ."
+                             ". menu ."
+                             ". imgGrilla . "
+                             ". uno ."
+                             ". contacto .";
+        .titulo{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            text-align: center;
+            grid-area: titulo;
+            padding: 15px;
+            .enlaceMenu{
+                text-decoration: none;
+                color:rgb(39, 39, 79);
+                background-color: whitesmoke;
+                width: 250px;
+                padding-top:25px; /*no lo saqué para aplicar bootstrap porque me rompía el diseño que quiero*/
+                padding-bottom: 25px; /*no lo saqué para aplicar bootstrap porque me rompía el diseño que quiero*/
+                border-radius:5px;
+                }
+            }
+        }
+
+        .imgGrilla{
+            grid-area: imgGrilla;
+        }
+        .uno{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            text-align: center;
+            padding: 20px;
+            grid-area: uno;
+            .enlaceConocenos{
+                justify-content: center; /*no lo saqué para aplicar bootstrap porque me rompía el diseño que quiero*/
+                text-decoration: none; /*no lo saqué para aplicar bootstrap porque me rompía el diseño que quiero*/
+                color:rgb(39, 39, 79);
+                background-color: whitesmoke;
+                width: 250px;
+                padding-top:25px; /*no lo saqué para aplicar bootstrap porque me rompía el diseño que quiero*/
+                padding-bottom: 25px; /*no lo saqué para aplicar bootstrap porque me rompía el diseño que quiero*/
+                border-radius:5px;
+                }
+    }
+
+    .tituloSuc{
+    text-align: center;
+    }
+
+
+.footer{
+    background-color: rgb(69, 69, 69);
+    color: rgb(220, 220, 220);
+    }
+
+    .iconoFcb{
+        right: 10px;
+        bottom: 10px;
+        color: rgb(83, 83, 189)
+    }
+
+    .iconoInsta{
+        right: 10px;
+        bottom: 10px;
+        color: rgb(216, 84, 84);
+    }

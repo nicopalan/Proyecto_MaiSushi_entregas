@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/44de7ce0c8.js" crossorigin="anonymous"></script>   
+        <title>MAI SUSHI</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+    </head>
+    <body>
+        <header class="header p-2 position-sticky top-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img class="logo" src="./assets/img/logo.png" alt="Logo Mai Suchi">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                      </li>
+                      <li class="nav-item"> 
+                        <a class="nav-link" href="./pages/conocenos.html">¿QUIÉNES SOMOS?</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/menu.html">MENÚ</a>
+                      </li> 
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/sucursales.html">SUCURSALES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                      </li> 
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main class="main">
+           <section class="grilla d-grid">
+                <div class="titulo">
+                    <h1 class="tituloPrincipal">Vení por el sushi, quedate por la experiencia.</h1>
+                    <a class="enlaceMenu pt-25 pb-25" href="./pages/menu.html">VER MENÚ</a> <!-- no consigo bajar el enlace MENÚ con justify-content-center en la grilla o título o titulo principal, o align items en el ancla -->
+                </div>
+                <div class="imgGrilla p-20 rounded mx-auto">
+                    <img src="./assets/img/imagen index.jpg" width="600" height="800" alt="imagen grilla">
+                </div>
+                <div class="uno">
+                    <p>Inspirados en el mar, donde todo dió origen, en Mai Sushi fusionamos los sabores originados en Oriente y Occidente, creando platos gourmet con base en los mares de los siete continentes para ofrecerte una experiencia gastronómica única todos los días.</p>
+                    <a class="enlaceConocenos pt-25 pb-25" href="./pages/conocenos.html">CONOCENOS</a> <!-- no consigo centrar el enlace CONOCENOS con justify-content-center en el padre o en la grilla, o align items en el ancla  -->
+                </div>
+            </section>
+        </main>
+        <footer class="footer d-flex justify-content-around fs-6">
+            <section>
+                <h4>Ubicación y Contacto</h4>
+                <p>Costa Rica 5802, Palermo, CABA</p>
+                <P>(+54) 1234 5678</p>
+                <p>Marcelo T. de Alvear 401, San Nicolás, CABA</p>
+                <P>(+54) 1122 3344</p>
+                <p>info@maisushi.com.ar</p>
+            </section>
+            <section>
+                <h4>HORARIO DE APERTURA</h4>
+                <p>Lunes a Sábado</p>
+                <p>11:30 - 15:00</p>
+                <p>19:00 - 23:30</p>
+            </section>
+            <section>
+                <h4>SEGUINOS</h4>
+                <a class="iconoFcb fs-3" href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a class="iconoInsta fs-3" href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </section>
+        </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
