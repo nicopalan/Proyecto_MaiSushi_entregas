@@ -1,0 +1,55 @@
+.main{
+        color: $anti-flash-white;
+
+    }
+
+    .grilla{
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+        grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+        grid-template-areas: ". titulo ."
+                             ". menu ."
+                             ". imgGrilla . "
+                             ". uno ."
+                             ". contacto .";
+        .titulo{
+            font-family: $font-family;
+            font-size: 25px;
+            text-align: center;
+            grid-area: titulo;
+            padding: 15px;
+            .enlaceMenu{
+                text-decoration: none;
+                color:$onyx;
+                background-color: $bg-bodyPropia;
+                width: map-get($anchos , ancho-250px); /*acá aplico un mapa*/
+                padding-top:25px; /*no lo saqué para aplicar bootstrap porque me rompía el diseño que quiero*/
+                padding-bottom: 25px; /*no lo saqué para aplicar bootstrap porque me rompía el diseño que quiero*/
+                border-radius:5px;
+                }
+            }
+        }
+
+        .imgGrilla{
+            grid-area: imgGrilla;
+        }
+        .uno{
+            font-family: $font-family;
+            font-size: 25px;
+            text-align: center;
+            padding: 20px;
+            grid-area: uno;
+            .enlaceConocenos{
+                justify-content: center; /*no lo saqué para aplicar bootstrap porque me rompía el diseño que quiero*/
+                text-decoration: none; /*no lo saqué para aplicar bootstrap porque me rompía el diseño que quiero*/
+                color:$onyx;
+                background-color:$bg-bodyPropia;
+                width: map-get($anchos , ancho-250px); /*acá aplico un mapa*/
+                padding-top:25px; /*no lo saqué para aplicar bootstrap porque me rompía el diseño que quiero*/
+                padding-bottom: 25px; /*no lo saqué para aplicar bootstrap porque me rompía el diseño que quiero*/
+                border-radius:5px;
+                }
+    }
+
+    .tituloSuc{
+    text-align: center;
+    }
